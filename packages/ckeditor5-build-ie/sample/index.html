@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CKEditor 5 – classic editor build – development sample</title>
+	<style>
+		body {
+			max-width: 1200px;
+			margin: 20px auto;
+		}
+	</style>
+</head>
+<body>
+
+<h1>CKEditor 5 – classic editor build – development sample</h1>
+
+<div id="editor">
+	<h1><a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">ASdsasdfasdfa</a> asdfa<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">sdf a</a></h1><p>&nbsp;asdfasdfa dfasccompany the<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">sdfa sdf&nbsp;</a></p><p><br>This preview image will&nbsp;</p><p>fd SEO title and description below when a link to this content is sasdf</p><p>&nbsp;asaccompany the SEO title and description below when a link to this content is shared on social media.</p><p>&nbsp;</p><p>sdf<br>&nbsp;hared on social media.</p><p>a&nbsp;</p><p>&nbsp;as</p><p>fd</p><p>as df asdf asdf asdf asdf asdf&nbsp;</p>
+
+	<h2>Sample</h2>
+
+	<p>This is an instance of the <a href="https://ckeditor.com/docs/ckeditor5/latest/installation/getting-started/predefined-builds.html#classic-editor">classic editor build</a>.</p>
+
+	<figure class="image">
+		<img src="../tests/manual/sample.jpg" alt="Autumn fields" />
+	</figure>
+
+	<p>You can use this sample to validate whether your <a href="https://ckeditor.com/docs/ckeditor5/latest/installation/advanced/alternative-setups/custom-builds.html">custom build</a> works fine.</p>
+</div>
+
+<script src="../build/ckeditor.js"></script>
+<script>
+	IEEditor.create( document.querySelector( '#editor' ) )
+		.then( editor => {
+			window.editor = editor;
+		} )
+		.catch( error => {
+			console.error( 'There was a problem initializing the editor.', error );
+		} );
+</script>
+
+</body>
+</html>
