@@ -49,10 +49,10 @@ export default class IEEditor extends ClassicEditorBase {
 		Bold,
 		Italic,
 		BlockQuote,
-		CKBox,
+		CKBox, // TODO: check what this is
 		CKFinder,
-		CloudServices,
-		EasyImage,
+		CloudServices, // TODO: check what this is
+		EasyImage, // TODO: check what this is
 		Heading,
 		Image,
 		ImageCaption,
@@ -65,7 +65,7 @@ export default class IEEditor extends ClassicEditorBase {
 		MediaEmbed,
 		Paragraph,
 		PasteFromOffice,
-		PictureEditing,
+		PictureEditing, // TODO: check what this is
 		Table,
 		TableToolbar,
 		TextTransformation,
